@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_baseline_history_alt_24"
+        android:title="归档"
+        app:tint="@color/blue_300"/>
+    <item
+        android:id="@+id/device"
+        android:icon="@drawable/ic_baseline_devices_24"
+        android:title="设备"
+        app:tint="@color/green_400"/>
+    <item
+        android:id="@+id/font"
+        android:icon="@drawable/ic_baseline_font_download_24"
+        android:title="字体"
+        app:tint="@color/black"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="关于"
+        app:tint="@color/white"/>
+</menu>
